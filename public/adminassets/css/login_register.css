@@ -1,0 +1,91 @@
+.background-image {
+    background-image: url('path/to/your/image.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+    /* Gradient Background */
+    .gradient-custom {
+      background: #6a11cb;
+      background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+      background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    }
+
+    /* Card Styling */
+    .card {
+        border-radius: 1rem;
+    }
+
+    /* Form Styling */
+    .form-control {
+        border-radius: 10px;
+        padding: 12px 20px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+        border-color: #37aaff;
+        box-shadow: 0 0 5px rgba(55, 170, 255, 0.6);
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+
+    /* Button Styling */
+    .btn-outline-light {
+        border-radius: 10px;
+        padding: 12px 40px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-outline-light:hover {
+        background-color: #37aaff;
+        color: #fff;
+    }
+
+    /* Social Media Icons */
+    .d-flex a {
+        font-size: 1.5rem;
+        margin-right: 20px;
+        transition: color 0.3s ease;
+    }
+
+    .d-flex a:hover {
+        color: #37aaff;
+    }
+
+    /* Links */
+    .text-white-50 {
+        opacity: 0.7;
+    }
+
+    .text-white-50:hover {
+        opacity: 1;
+    }
+
+    /* Sign-up Link */
+    .mb-0 {
+        font-size: 0.9rem;
+    }
+
+    .mb-0 a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 767px) {
+        .card-body {
+            padding: 3rem;
+        }
+        .card-header h2 {
+            font-size: 1.5rem;
+        }
+    }
